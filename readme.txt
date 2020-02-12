@@ -39,6 +39,16 @@ TwentyTwenty
 TwentyNineteen
 
 
+piglets -phototgraphed by carolina nymark CC0
+
+Moose phototgraphed by carolina nymark CC0
+https://www.flickr.com/photos/layout_nu/33455687493/in/album-72157628878054615/
+
+bear phototgraphed by carolina nymark CC0
+https://www.flickr.com/photos/layout_nu/14242771498/in/album-72157628878054615/
+
+Person with camera Image license: CC0
+https://pxhere.com/sv/photo/1324157
 
 
 
