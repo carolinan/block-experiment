@@ -35,26 +35,6 @@ Short description
 
 
 == Credits ==
-<<<<<<< HEAD
-Twenty Twenty WordPress Theme, Copyright 2019-2020 WordPress.org
-Twenty Twenty is distributed under the terms of the GNU GPL.
-
-Twenty Nineteen WordPress Theme, Copyright 2018-2020 WordPress.org
-Twenty Nineteen is distributed under the terms of the GNU GPL
-
-CSS remedy Mozilla Public License 2.0 
-https://github.com/mozdevs/cssremedy
-
-Images:
-piglets -photographed by Carolina Nymark, CC0
-wolf2 -photographed by Carolina Nymark, CC0
-
-Moose photographed by Carolina Nymark, CC0
-https://www.flickr.com/photos/layout_nu/33455687493/in/album-72157628878054615/
-
-Bear photographed by Carolina Nymark, CC0
-=======
-
 Twenty Twenty WordPress Theme, Copyright 2019-2020 WordPress.org
 Twenty Twenty is distributed under the terms of the GNU GPL.
 
@@ -69,7 +49,6 @@ Moose photographed by carolina nymark CC0
 https://www.flickr.com/photos/layout_nu/33455687493/in/album-72157628878054615/
 
 bear photographed by carolina nymark CC0
->>>>>>> 6ff028927d6411a90ae544b548e986eaf97806b4
 https://www.flickr.com/photos/layout_nu/14242771498/in/album-72157628878054615/
 
 Person with camera. Image license: CC0
