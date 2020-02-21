@@ -1,19 +1,19 @@
-<header class="site-header" role="banner">
-	<!-- wp:template-part {"slug":"header","theme":"block-experiment"} /-->
-</header>
-<main id="site-content" role="main">
-	<header class="entry-header">
-	<!-- wp:heading -->
-	<h2>404 Error -This page is not available</h2>
-	<!-- /wp:heading -->
-	<!-- wp:paragraph -->
-	<p>Try some of the latest posts below:</p>
-	
-	<!-- /wp:paragraph -->
-	</header>
-	<!-- wp:latest-posts {"displayPostContent":true,"excerptLength":90,"displayPostDate":true, "className":"entry-content"} /-->
-</main>
 
-<footer class="site-footer" role="contentinfo">
-	<!-- wp:template-part {"slug":"footer","theme":"block-experiment"} /-->
-</footer>
+<!-- wp:template-part {"slug":"header","theme":"block-experiment"} /-->
+
+<!-- wp:group {"align":"full","className":"site-main"} -->
+<div class="wp-block-group alignfull site-main">
+	<div class="wp-block-group__inner-container">
+		<!-- wp:heading -->
+		<h2>404 Error -This page is not available</h2>
+		<!-- /wp:heading -->
+		<!-- wp:paragraph -->
+		<p>Try some of the latest posts below:</p>
+		<!-- /wp:paragraph -->
+
+		<!-- wp:latest-posts {"className":"entry-content","displayPostContent":true,"excerptLength":90,"displayPostDate":true} /-->
+	</div>
+</div>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","theme":"block-experiment"} /-->

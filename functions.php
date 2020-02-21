@@ -19,6 +19,8 @@ if ( ! function_exists( 'block_experiment_theme_support' ) ) {
 
 		add_theme_support( 'title-tag' );
 
+		add_theme_support( 'post-thumbnails' );
+
 		add_theme_support( 'automatic-feed-links' );
 
 		add_theme_support( 'wp-block-styles' );
@@ -91,6 +93,7 @@ if ( ! function_exists( 'block_experiment_scripts' ) ) {
 		wp_enqueue_style( 'block-experiment-style', get_stylesheet_uri(), array(), wp_get_theme()->get( 'Version' ) );
 
 		wp_enqueue_style( 'open-sans' );
+		wp_enqueue_style( 'block-experiment-font', '//fonts.googleapis.com/css?family=Roboto+Slab:400,700|Noto+Serif:400,700|Indie+Flower&display=swap' );
 
 		if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 			wp_enqueue_script( 'comment-reply' );

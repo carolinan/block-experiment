@@ -1,18 +1,33 @@
-<header class="site-header" role="banner">
-	<!-- wp:template-part {"slug":"header","theme":"block-experiment"} /-->
-</header>
-<main id="site-content" role="main">
-	<header class="entry-header">
-	<!-- 2020-02-12 the className is not added to the post title yet-->
-	<!-- wp:post-title {"className":"entry-title"} /-->
-	</header>
-	<div class="entry-meta">
-	<!-- wp:post-author /-->
-	<!-- wp:post-date /-->
+<!-- wp:template-part {"slug":"header","theme":"block-experiment"} /-->
+<!-- wp:group {"align":"full","className":"site-main"} -->
+<div class="wp-block-group alignfull site-main">
+	<div class="wp-block-group__inner-container">
+		<!-- wp:group {"className":"entry-header"} -->
+		<div class="wp-block-group entry-header">
+			<div class="wp-block-group__inner-container">
+				<!-- wp:post-thumbnail /-->
+				<!-- 2020-02-20 the className is not added to the post title or meta yet-->
+				<!-- wp:post-title {"className":"entry-title"} /-->
+				<!-- wp:post-author {"className":"entry-meta"} /-->
+				<!-- wp:post-date {"className":"entry-meta"} /-->
+			</div>
+		</div>
+		<!-- /wp:group -->
+		<!-- wp:post-content /-->
+		<!-- wp:group {"className":"comments-area"} -->
+		<div class="wp-block-group comments-area">
+			<div class="wp-block-group__inner-container">
+				<!-- wp:paragraph -->
+				<p>Comments are not available yet</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:post-comments-count /-->
+				<!-- wp:post-comments /-->
+				<!-- wp:post-comments-form /-->
+			</div>
+		</div>
+		<!-- /wp:group -->	
 	</div>
-	<!-- wp:post-content /-->
-</main>
+</div>
+<!-- /wp:group -->
 
-<footer class="site-footer" role="contentinfo">
-	<!-- wp:template-part {"slug":"footer","theme":"block-experiment"} /-->
-</footer>
+<!-- wp:template-part {"slug":"footer","theme":"block-experiment"} /-->
